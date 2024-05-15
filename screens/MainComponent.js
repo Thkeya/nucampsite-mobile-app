@@ -55,8 +55,8 @@ const Main = () => {
       }}
     >
       <Drawer.Navigator
-        initialRouteName="Home"
-        drawerStyle={{ backgroundColor: "#CEC8FF" }}
+        initialRouteName="HomeDrawer"
+        screenOptions={{ drawerStyle: { backgroundColor: "#CEC8FF" } }}
       >
         <Drawer.Screen
           name="Home"
