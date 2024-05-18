@@ -22,7 +22,7 @@ const Mission = () => {
 };
 
 const AboutScreen = () => {
-  const [partners] = useState(PARTNERS);
+  const [partners, setPartners] = useState(PARTNERS);
 
   return (
     <ScrollView>
